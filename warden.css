@@ -1,0 +1,65 @@
+body{
+	background-color: #F1F8FF;
+}
+.navbar-fixed-top{
+	opacity: 0.7;
+}
+
+.container{
+	font-family: 'Lobster', cursive;
+}
+.material {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #D9DFE6;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    opacity: 1;
+}
+#kcl {
+    color: #5F5F9F;
+}
+.roy {
+    margin-top: 300px;
+}
+
+.facebook {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #D9DFE6;
+    padding-top: 25px; 
+    padding-bottom: 25px;
+    opacity: 1;
+    text-align: center;
+}
+.tg {
+    margin-top:100px;
+}
+.prsa {
+
+    margin-top: 50px;
+}
+.sin {
+    float: right;
+}
+.di {
+    background-color: #FF9E5E;
+    opacity: 1;
+}
+.wdl{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+#map {
+        margin-top: 50px;
+}
+.ho {
+    margin-top: 50px;
+    float: right;
+}
