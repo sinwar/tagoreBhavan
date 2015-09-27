@@ -22,6 +22,18 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body background="Images/b7.jpg" c>
+  <!-- javascript sdk for facebook like button-->
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) return;
+   js = d.createElement(s); js.id = id;
+   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+   fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+
+<!--code for navbar -->
     <div class="container tg">
       <div class="row">
         <div class="col-md-12">
@@ -60,6 +72,7 @@
             </div>
         </div>
     </nav>
+    <!-- home page part 1 -->
     <div class="container">
       <div class="row material">
         <div class="col-md-12">
@@ -137,12 +150,8 @@
       </div>
       <div class="container">
       <div class="row facebook">
-
-        <div class="col-md-2">
-          <img src="Images/fb.png" height="50px" width ="50px">
-        </div>
-        <div class="col-md-10">
-          <h3 id="pcl" ><a href="https://www.facebook.com/tagoresite" target="_blank">Like our official facebook page and share it also.</a></h3>
+        <div class="col-md-12">
+          <div class="fb-like" data-href="https://www.facebook.com/tagoresite" data-width="400" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
         </div>
       </div>
     </div>
